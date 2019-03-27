@@ -1,0 +1,33 @@
+{
+  "name": "barber-app",
+  "version": "1.0.0",
+  "description": "A project to schedule barber :barber:",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-hahn/barber-app.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Hahn Schaeffer <gabriel_hahn@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriel-hahn/barber-app/issues"
+  },
+  "homepage": "https://github.com/gabriel-hahn/barber-app#readme",
+  "devDependencies": {
+    "eslint": "ˆ5.9.0",
+    "eslint-config-standard": "ˆ12.0.0",
+    "eslint-plugin-import": "ˆ2.14.0",
+    "eslint-plugin-node": "ˆ8.0.0",
+    "eslint-plugin-promise": "ˆ4.0.1",
+    "eslint-plugin-standard": "ˆ4.0.0",
+    "nodemon": "ˆ1.18.6"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nunjucks": "^3.2.0"
+  }
+}
