@@ -4,7 +4,7 @@
   "description": "A project to schedule barber :barber:",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js -e js"
   },
   "repository": {
     "type": "git",
@@ -30,9 +30,11 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "multer": "^1.4.1",
     "nunjucks": "^3.2.0",
     "pg": "^7.9.0",
-    "sequelize": "^5.2.0"
+    "sequelize": "^5.2.0",
+    "session-file-store": "^1.2.0"
   }
 }
