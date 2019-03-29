@@ -16,7 +16,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-[Gabriel Hahn Schaeffer](https://github.com/gabriel-hahn/)
+[Gabriel Hahn Schaeffer](https://github.com/gabriel-hahn/) | [Rocketseat - Teacher](https://github.com/Rocketseat)
 
 See also the list of [contributors](https://github.com/gabriel-hahn/barber-app/contributors) who participated in this project.
 
