@@ -1,10 +1,45 @@
 # Barber App
 
-A NodeJS project to schedule barber :barber:
+A simple NodeJS project to schedule barber :barber:
 
 - NodeJS.
 - Express.
+- Postgres.
 - Nunjucks.
+
+## Getting Started
+
+Create a database and change the follow configuration in database.js file:
+
+```
+...
+username: 'DATABASE USERNAME',
+password: 'DATABASE PASSWORD',
+database: 'DATABASE NAME',
+...
+```
+
+Install all dependencies:
+
+```sh
+yarn
+```
+
+Run the project (port 3000):
+
+```sh
+yarn start
+```
+
+## Demo
+
+<p align="center">
+  <img src="https://media.giphy.com/media/ZEa7k5QoC5KufRyBCw/giphy.gif">
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/LOFLthvoXlScFeXwad/giphy.gif">
+</p>
 
 ## Contributing
 
