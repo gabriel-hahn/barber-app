@@ -12,10 +12,6 @@ class AppointmentController {
     const { provider } = req.params
     const { date } = req.body
 
-    console.log('id: ', id)
-    console.log('provider: ', provider)
-    console.log('date: ', date)
-
     await Appointment.create({
       user_id: id,
       provider_id: provider,

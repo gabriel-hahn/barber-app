@@ -130,6 +130,17 @@ body {
   color: #666;
 }
 
+.main-wrapper .content h3 {
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+.main-wrapper .content span {
+  align-self: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
 .main-wrapper .content {
   display: flex;
   flex-direction: column;

@@ -2,20 +2,30 @@
 
 {% block body %}
   <div class="content">
-    <strong>Hi, {{ user.name }}</strong>
-    <p>Start by choosing a barber below:</p>
+    {% if user.provider === true %}
+      <h3>Your next customers</h3>
 
-    <ul class="providers">
-      {% for provider in providers %}
-        <li class="provider">
-          <div>
-            <img src="/files/{{ provider.avatar }}"/>
-            <strong>{{ provider.name }}</strong>
-          </div>
-          <a href="/app/appointments/new/{{ provider.id }}">+</a>
-        </li>
+      {% for appointment in appointments %}
+        <span>{{ appointment.user.name }}</span>
+        <span>{{ appointment.dateFormated }}</span>
       {% endfor %}
-    </ul>
+    {% endif %}
+
+    {% if user.provider === false %}
+      <strong>Hi, {{ user.name }}</strong>
+      <p>Start by choosing a barber below:</p>
+      <ul class="providers">
+        {% for provider in providers %}
+          <li class="provider">
+            <div>
+              <img src="/files/{{ provider.avatar }}"/>
+              <strong>{{ provider.name }}</strong>
+            </div>
+            <a href="/app/appointments/new/{{ provider.id }}">+</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
 
     <a href="/app/logout" class="logout">Log out</a>
   </div>
